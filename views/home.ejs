@@ -1,0 +1,112 @@
+
+<%- include("partials/header") %>
+
+<div class="home-body" id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 hero-text">
+                <br/>
+                <h1>Simplifying Urban Logistics: Smarter Transport, Optimized Routes, and Seamless Moving for a Sustainable Future</h1>
+                <p>This emphasizes the ease of booking and managing moving services with transparency, security, and real-time tracking.</p>
+                <br/>
+                <br/>
+                <div>
+                    <form action="/signup" method="get">
+                    <button type="submit" class="btn btn-outline-dark btn-lg home-btn" style="border: 2px solid black; background-color: lightgray;">Sign Up / Log In</button>
+                </form>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <img class="Hero-img" href="#" src="/images/hero-img.jpg" />
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<hr class="custom-line"/>
+
+
+<!-- about us -->
+
+<div class="About-body" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 hero-img">
+                <img class="about-img" src="images/about.jpg" alt="Image" />
+            </div>
+
+            <div class="col-lg-6">
+                <div class="about-text">
+                    <h3> About US <iconify-icon icon="material-symbols:bolt-outline"></iconify-icon></h3>
+                 <p>At Transferz, we simplify your moving experience with innovative logistics solutions. Whether for individuals or businesses, our platform offers effortless booking, transparent pricing, and multi-location services. With features like a booking management dashboard, real-time tracking, secure payments, and porter profiles, we ensure reliability and ease. Our service allows users to choose the location, time, and type of service, providing clear pricing and porter ratings to build trust. Proudly part of Smart India Hackathon 2024, Transferz is reshaping urban logistics.</p>
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="custom-line"/>
+
+<div class="About-body" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 hero-img">
+                <img class="about-img" src="images/pack.jpg" alt="Image" />
+            </div>
+
+            <div class="col-lg-6">
+                <div class="about-text">
+                    <h3> Our Key features <iconify-icon icon="material-symbols:bolt-outline"></iconify-icon></h3>
+                    <p>Here is a paragraph with inline bullet points: <br/>
+                        <span class="bullet-point">Real-Time Tracking: Monitor the status and location of services or deliveries.</span> <br/>
+                        <span class="bullet-point">Live Chat: Real-time assistance through chat support</span> <br/>
+                        <span class="bullet-point">Secure Payment Gateway: Accept various payment methods (credit cards, digital wallets, etc.).</span> <br/>
+                        <span class="bullet-point">High-Quality Visuals: Use professional images and graphics related to the services</span> <br/>
+                        <span class="bullet-point">Email/SMS Notifications: Automated updates on booking status, estimated arrival times, and other relevant information</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="custom-line"/>
+
+<!-- contact us -->
+
+<div class="row justify-content-evenly pt-5">
+    <div class="col-md-5 mt-5">
+      <h2 class="mb-5 text-center h2" id="contact">Contact Us</h2>
+      <form action="/contact" method="post">
+        <div class="mb-3">
+          <label for="fullname" class="full name p-2 h5" >Full Name</label>
+          <input type="text" class="form-control m-2" name="fullname" id="name"/>
+        </div>
+  
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label p-2 h5" >Email address</label>
+          <input type="email" class="form-control m-2" id="exampleInputEmail1" name="email" aria-describedby="emailHelp"/>
+        </div>
+  
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label p-2 h5" >Message</label>
+          <textarea class="form-control m-2" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+        </div>
+       
+        <button type="submit" class="btn btn-secondary m-3 mb-5 home-btn">Submit</button>
+        
+    </form>
+    
+      <br/><br/><br/>
+    </div>
+</div>
+
+  
+ 
+
+
+
+<%-include ("partials/footer")%>
